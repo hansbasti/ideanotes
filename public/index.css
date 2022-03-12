@@ -1,0 +1,160 @@
+* {
+    margin: 0px;
+}
+
+body {
+    background-color: rgb(241, 239, 239);
+    box-sizing: border-box;
+}
+
+.content--container {
+    
+    /* width: 1220px; */
+    display:flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    /* flex-wrap: wrap; */
+}
+
+/* ----header---- */
+
+.header--container{
+    /* height: 100px; */
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(75, 75, 136);
+    padding: 10px 10px 10px 10px;
+    color:white;
+    font-family: 'Shadows Into Light', cursive;
+    
+}
+
+.header--container > h1{
+    font-size: 50px;
+}
+
+/* -----form---- */
+.form--wrapper {
+    width: 400px;
+    margin-left: auto;
+    margin-right: 20px;
+}
+.form--container{
+    display: flex;
+    flex-direction: column;
+}
+
+.title--form {
+    border-radius: 5px;
+    padding: 10px;
+    border: 2px solid rgb(148, 145, 145);
+    margin-bottom: 5px;
+}
+
+.body--form {
+    border-radius: 5px;
+    padding: 10px;
+    border: 2px solid rgb(148, 145, 145);
+    margin-bottom: 5px;
+}
+
+.save--idea {
+    background-color: rgb(75, 75, 136);
+    color:white;
+    /* height: 50px; */
+    padding: 10px 0 10px 0;
+    margin-bottom: 5px;
+    border-radius: 3px;
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.lower--buttons {
+    display:flex;
+    /* word-break: break-word; */
+}
+.lower--buttons > button {
+    flex:1;
+    /* overflow-wrap: break-word; */
+    /* flex-wrap: wrap; */
+    /* word-break: break-word; */
+}
+
+/* ----cards----- */
+/* .card--title{
+    background-color: rgb(75, 75, 136);
+} */
+.add--idea--btn {
+    background-color: rgb(75, 75, 136);
+    color:white;
+    height: 50px;
+    margin-bottom: 5px;
+    border-radius: 3px;
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+
+.idea--container {
+    display:flex;
+    flex-direction: column;
+  
+}
+
+.card--ideas > .card--title{
+    background-color: rgb(75, 75, 136);
+    border-radius: 3px;
+    padding-left: 5px;
+    color:white;
+    margin-bottom: 5px;
+}
+.card--container {
+    display:flex;
+    flex-direction: column;
+    width: 800px;
+    margin-right: auto;
+    /* margin-left: auto; */
+    
+    
+}
+
+.card--ideas {
+    font-family: 'Shadows Into Light', cursive;
+    padding:5px;
+    /* border:1px solid black; */
+    box-shadow: -5px 10px 10px #888888;
+    margin-bottom: 15px;
+    background-color: rgb(243, 238, 238);
+    overflow-wrap: break-word;
+    
+}
+
+/* ---footer--- */
+
+.footer {
+    margin-top: 40px;
+    background-color: rgb(75, 75, 136);
+    display:flex;
+    align-items: center;
+    padding: 40px 20px;
+    justify-content: space-between;
+}
+
+.footer--left{
+    color:white;
+}
+
+.footer--right{
+    display: flex;
+    color:white;
+    justify-content: space-between;
+}
+
+.footer--item{
+    margin-right: 30px;
+}
